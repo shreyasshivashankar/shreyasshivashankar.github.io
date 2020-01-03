@@ -6,7 +6,7 @@ import {
 import Index from './views/Index'
 import './static/css/main.scss'
 
-ReactDOM.render(<Router basename={'/'}>
+ReactDOM.render(<Router basename={BASE_PATH}>
   <Switch>
     <Route exact path="/" component={Index} />
     {/* Only useful in development mode */}
