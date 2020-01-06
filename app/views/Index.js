@@ -17,7 +17,7 @@ const Index = () => (
         <code><a href="/projects">projects</a></code>,
         or <code><a href="/contact">contact</a></code> me.
       </p>
-      <p> Source available <a href="https://github.com/shreyasshivashankar/personal-website"><code>here</code></a>.</p>
+      <p> Source available <a href="https://github.com/shreyasshivashankar/personal-site"><code>here</code></a>.</p>
     </article>
   </Main>
 );

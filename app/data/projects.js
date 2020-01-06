@@ -1,42 +1,29 @@
-// TODO Add a couple lines about each project
+
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
-  }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+    title: 'Alfred. Your personal financial butler',
+    subtitle: 'TechCrunch Disrupt SF Hackathon 2019',
+    link: 'https://devpost.com/software/alfred-your-personal-financial-butler',
+    image: 'https://i.imgur.com/4pZp7bR.jpg',
+    date: '2019-10-2',
+    desc: 'Alfred, the financial butler analyses all your financial transactions,'
+      + 'income and liabilities to make a profile on your spending pattern.'
+      + 'With that, Alfred is able to tell you the impact to your financial health for making certain unusual large purchases.',
+  },
+  {
+    title: 'Emotion Sensing Using Facial Recognition (IEEE)',
+    link: 'https://ieeexplore.ieee.org/abstract/document/8358489',
+    image: 'https://i.imgur.com/9eH7Qie.jpg',
+    date: '2018-05-14',
+    desc: 'The project implemented the task of facial recognition and was able to extract the important features of the face. Using Machine learning, the emotion associated with the face of each image was predicted. Presented at the 2017 International Conference on Smart Technologies for Smart Nation (SmartTechCon).',
+  },
+  {
+    title: 'Image Filtering with Java',
+    link: 'https://github.com/shreyasshivashankar/imageFilteringWithjava',
+    image: 'https://i.imgur.com/uajpws2.jpg',
+    date: '2019-12-6',
+    desc: 'This project performs a plethora of image and pattern processing operations.'
+      + 'Pattern processing operations are malleable in a manner that lets the user define the specifications of it.',
   },
 ];
 

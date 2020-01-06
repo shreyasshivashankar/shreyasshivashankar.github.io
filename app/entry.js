@@ -4,12 +4,15 @@ import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
 import Index from './views/Index'
+import Projects from './views/Projects';
 import './static/css/main.scss'
+import NotFound from './views/NotFound';
 
 ReactDOM.render(<Router basename={BASE_PATH}>
   <Switch>
     <Route exact path="/" component={Index} />
-    {/* Only useful in development mode */}
+    <Route path="/projects" component={Projects} />
+    <Route component={NotFound} status={404} />
   </Switch>
 </Router>,
   document.getElementById('root'),
