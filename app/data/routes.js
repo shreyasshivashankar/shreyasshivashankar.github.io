@@ -13,10 +13,6 @@ const data = [
     label: 'Projects',
   },
   {
-    path: '/experience',
-    label: 'Experience',
-  },
-  {
     path: '/contact',
     label: 'Contact',
   },

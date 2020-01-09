@@ -8,10 +8,7 @@ export const categories = [
   }, {
     name: 'Databases',
     color: '#3896e2',
-  }, {
-    name: 'Design',
-    color: '#747fff',
-  }, {
+  },{
     name: 'Frameworks',
     color: '#64cb7b',
   }, {
@@ -23,9 +20,6 @@ export const categories = [
   }, {
     name: 'Machine Learning',
     color: '#e47272',
-  }, {
-    name: 'Other',
-    color: '#c3423f',
   }, {
     name: 'Python',
     color: '#37b1f5',
@@ -41,7 +35,7 @@ export const categories = [
 export const skills = [
   {
     title: 'Javascript',
-    compentency: 5,
+    compentency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -60,9 +54,24 @@ export const skills = [
     category: ['Tools', 'Languages'],
   },
   {
-    title: 'Amazon Web Services',
-    compentency: 4,
+    title: 'Docker',
+    compentency: 3,
     category: ['Web Development', 'Tools'],
+  },
+  {
+    title: 'Spark',
+    compentency: 3,
+    category: ['Data Science', 'Machine Learning'],
+  },
+  {
+    title: 'Hadoop',
+    compentency: 3,
+    category: ['Data Science', 'Machine Learning'],
+  },
+  {
+    title: 'Apache Kafka',
+    compentency: 3,
+    category: [ 'Tools'],
   },
   {
     title: 'Heroku',
@@ -71,38 +80,18 @@ export const skills = [
   },
   {
     title: 'MongoDB',
-    compentency: 4,
+    compentency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'ElasticSearch',
-    compentency: 3,
+    compentency: 4,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'PostgreSQL',
     compentency: 4,
     category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'SQLite3',
-    compentency: 4,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Redis',
-    compentency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Matlab',
-    compentency: 2,
-    category: ['Data Science', 'Machine Learning', 'Languages'],
-  },
-  {
-    title: 'Julia',
-    compentency: 3,
-    category: ['Data Science', 'Machine Learning'],
   },
   {
     title: 'Data Mining',
@@ -115,24 +104,14 @@ export const skills = [
     category: ['Web Development', 'Frameworks', 'Javascript'],
   },
   {
-    title: 'Koa',
-    compentency: 3,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
-  },
-  {
     title: 'D3',
     compentency: 3,
     category: ['Web Development', 'Frameworks', 'Design', 'Javascript'],
   },
   {
     title: 'Flask',
-    compentency: 4,
+    compentency: 5,
     category: ['Web Development', 'Frameworks', 'Python'],
-  },
-  {
-    title: 'Product Development',
-    compentency: 3,
-    category: ['Other'],
   },
   {
     title: 'Data Analysis',
@@ -140,18 +119,8 @@ export const skills = [
     category: ['Data Science', 'Machine Learning'],
   },
   {
-    title: 'Mercurial',
-    compentency: 3,
-    category: ['Tools'],
-  },
-  {
     title: 'Git',
-    compentency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Arc',
-    compentency: 3,
+    compentency: 5,
     category: ['Tools'],
   },
   {
@@ -160,8 +129,8 @@ export const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Google Cloud Compute',
-    compentency: 3,
+    title: 'Openstack',
+    compentency: 4,
     category: ['Tools'],
   },
   {
@@ -170,43 +139,43 @@ export const skills = [
     category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
-    title: 'Caffe',
-    compentency: 4,
-    category: ['Machine Learning'],
-  },
-  {
     title: 'Tensorflow',
     compentency: 4,
     category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
     title: 'Jupyter',
-    compentency: 4,
+    compentency: 5,
     category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
-    title: 'Typescript',
-    compentency: 3,
+    title: 'Golang',
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
-    title: 'HTML',
+    title: 'Java',
+    compentency: 5,
+    category: ['Web Development', 'Languages'],
+  },
+  {
+    title: 'Scala',
     compentency: 3,
+    category: ['Machine Learning', 'Languages'],
+  },
+  {
+    title: 'HTML',
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'CSS',
-    compentency: 3,
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'SASS/SCSS',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'LESS',
-    compentency: 3,
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
@@ -217,33 +186,8 @@ export const skills = [
   },
   {
     title: 'C++',
-    compentency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Photoshop',
     compentency: 3,
-    category: ['Design'],
-  },
-  {
-    title: 'Lightroom',
-    compentency: 5,
-    category: ['Design'],
-  },
-  {
-    title: 'InDesign',
-    compentency: 2,
-    category: ['Design'],
-  },
-  {
-    title: 'Wireframing',
-    compentency: 4,
-    category: ['Design', 'Web Development'],
-  },
-  {
-    title: 'Keras',
-    compentency: 4,
-    category: ['Machine Learning', 'Python'],
+    category: ['Languages'],
   },
   {
     title: 'Visualization',
@@ -251,7 +195,7 @@ export const skills = [
     category: ['Data Science', 'Javascript'],
   },
   {
-    title: 'GraphQL',
+    title: 'Cassandra',
     compentency: 2,
     category: ['Web Development', 'Databases'],
   },
@@ -269,10 +213,5 @@ export const skills = [
     title: 'Scikit-Learn',
     compentency: 3,
     category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Pylint',
-    compentency: 4,
-    category: ['Python'],
   },
 ];
