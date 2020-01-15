@@ -29,7 +29,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume </Link><Link to="/resume/resume_shreyas.pdf" className="button-download" target="_blank" download>Download</Link></h2>
+          <h2><Link to="resume">Resume </Link><Link to="/resume/shreyas_resume.pdf" className="button-download" target="_blank" download>Download</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
