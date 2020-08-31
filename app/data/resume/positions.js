@@ -1,6 +1,17 @@
 
 const positions = [
   {
+    company: 'Amazon Web Services',
+    position: 'SDE Intern',
+    link: 'https://aws.amazon.com/',
+    daterange: 'June 2020 - August 2020',
+    points: [
+      'Designed and developed a scalable and extensible Network visualization tool to provide a one stop shop view of the health of AWS data centers.',
+      'Worked on aggregating topology and traffic distribution information from large number of devices in a data center.',
+      'Reduced time spent in debugging operational issues of network devices and links.'
+    ],
+  },
+  {
     company: 'Target Corporation',
     position: 'Engineer',
     link: 'https://corporate.target.com/',
